@@ -16,4 +16,4 @@ Future Implementations :
 - Get weather forecast for next seven days
 
 
-![alt text](./src/Imgs/Screenshot.png "App Preview")
+![alt text](./dist/Imgs/Screenshot.png"App Preview")
