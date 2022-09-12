@@ -15,5 +15,7 @@ function handleThis() {
     let weather = getWeatherData(response.lat, response.lon);
 
     updateDisplay(location, weather);
+
+    userZipCode.value = "";
   });
 }

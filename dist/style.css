@@ -1,33 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  margin: 0;
-  padding: 0;
   background-image: url("../src/Imgs/wp4469128-1536x864-wallpapers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 100vh;
+  font-family: "Courier Prime", monospace;
 
+  color: rgb(0, 0, 0);
+}
+
+.grid {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr;
+}
+
+.top-grid {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+input[type="number"] {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  -moz-appearance: textfield;
+}
+#searchBtn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(201, 190, 238);
+  color: rgb(0, 0, 0);
+}
+.main-grid-content {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .city {
-  text-align: center;
   font-size: 4rem;
 }
 
-.temp {
-  text-align: center;
-  font-size: 6rem;
+.date {
+  font-size: 2rem;
 }
 
-.weatherType {
-  text-align: center;
+.temp {
   font-size: 10rem;
 }
+
