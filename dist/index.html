@@ -15,9 +15,11 @@
     </main>
 
     <div class="container">
-      <input type="number" name="zipCode" id="zipCode" value="30241" />
-      <button id="searchBtn" type="submit">Search</button>
-      <h2 class="state">Ga</h2>
+      <form onsubmit="return false" action="">
+        <input type="number" name="zipCode" id="zipCode" required >
+        <button id="searchBtn" type="submit">Search</button>
+      </form>
+      
     </div>
   </body>
 </html>
