@@ -1,1 +1,0 @@
-(()=>{"use strict";document.querySelector("#zipCode"),console.log(async function(){let e=await fetch("http://api.openweathermap.org/geo/1.0/zip?zip=30241&appid=674d4fcffa55cdf3f103af8e346807c8",{mode:"cors"});return await e.json()}())})();
