@@ -2,11 +2,18 @@
 
 This is my weather app completed in correlation with the [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-weather-app).
 
+[Live Project](https://laidev.github.io/WeatherApp/)
+
 Input your ZipCode to display :
 
 - Your Location Name
 - The Current Date
 - The Temperature of your current location
+
+Future Implementations :
+
+- Allow users to search using the name of their city
+- Get weather forecast for next seven days
 
 
 ![alt text](./src/Imgs/Screenshot.png "App Preview")
