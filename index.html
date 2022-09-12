@@ -9,17 +9,30 @@
 
   <body>
     <main>
-      <div class="city">LG</div>
-      <div class="weatherType"></div>
-      <div class="temp">80</div>
-    </main>
+      <div class="grid">
+        <div class="top-grid">
+          <div class="searchBar">
+            <form onsubmit="return false" action="">
+              <input type="number" name="zipCode" id="zipCode" placeholder="ZipCode" required >
+              <button id="searchBtn" type="submit">Search</button>
+            </form>
+        </div>
+      </div>
+      <div class="main-grid-content">
+        <div class="top">
+          <div class="city">LaGrange</div>
+          <div class="date">Mon Sep 12 2022 </div>
+        </div>
+        <div class="bottom">
 
-    <div class="container">
-      <form onsubmit="return false" action="">
-        <input type="number" name="zipCode" id="zipCode" required >
-        <button id="searchBtn" type="submit">Search</button>
-      </form>
+          <div class="temp">80°F</div>
+        </div>
+      </div>
       
+         
+     
+      </main>
+        
     </div>
   </body>
 </html>
