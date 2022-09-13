@@ -43,7 +43,7 @@ input[type="number"] {
   color: rgb(0, 0, 0);
 }
 #searchBtn:hover {
-  background-color: lightblue;
+  background-color: rgb(251, 223, 252);
 }
 .main-grid-content {
   display: flex;
