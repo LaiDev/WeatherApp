@@ -1,8 +1,10 @@
 # Weather App
 
+[Live Project](https://laidev.github.io/WeatherApp/)
+
 This is my weather app completed in correlation with the [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-weather-app).
 
-[Live Project](https://laidev.github.io/WeatherApp/)
+
 Input your ZipCode to display :
 
 - Your Location Name
