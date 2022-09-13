@@ -2,7 +2,7 @@
 
 export async function getLocationData(zipCode) {
   const locationData = await fetch(
-    `http://api.openweathermap.org/geo/1.0/zip?zip=${zipCode}&appid=674d4fcffa55cdf3f103af8e346807c8`,
+    `https://api.openweathermap.org/geo/1.0/zip?zip=${zipCode}&appid=674d4fcffa55cdf3f103af8e346807c8`,
     { mode: `cors` }
   );
 
