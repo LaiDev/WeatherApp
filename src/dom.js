@@ -7,6 +7,7 @@ function updateDisplay(location, weather) {
   //Gets the data from the argument and stores it as a variable called response
   location.then(function (locationData) {
     cityName.innerText = locationData.name;
+    cityName.style.color = "black";
   });
 
   weather.then(function (weatherData) {
